@@ -1,0 +1,8 @@
+SELECT ROUND(AVG(DAILY_FEE)) AS AVERAGE_FEE
+FROM CAR_RENTAL_COMPANY_CAR
+WHERE CAR_TYPE = 'SUV'
+
+# ROUND(123.45, 0) 123      소수점 첫째자리 반올림
+# ROUND(123.45, 1) 123.5    소수점 둘째자리 반올림
+# ROUND(123.45, -1) 120     첫째자리 반올림
+# ROUND(123.45, -2) 100     둘째자리 반올림
